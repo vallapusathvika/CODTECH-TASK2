@@ -11,7 +11,8 @@ DURATION:4 WEEKS
 
 MENTOR:NEELA SANTOSH
 
-DESCRIPTION OF THE CODE* This Python code is designed to load, analyze, and visualize a dataset related to labour, capital, output, and wages, and then generate a comprehensive PDF report summarizing the findings. It is implemented using a Jupyter Notebook, which allows for interactive data analysis and visualization. The code utilizes several Python libraries, including Pandas, Matplotlib, FPDF, and Seaborn, to handle data, create visualizations, and generate the report.
+***DESCRIPTION OF THE CODE***
+This Python code is designed to load, analyze, and visualize a dataset related to labour, capital, output, and wages, and then generate a comprehensive PDF report summarizing the findings. It is implemented using a Jupyter Notebook, which allows for interactive data analysis and visualization. The code utilizes several Python libraries, including Pandas, Matplotlib, FPDF, and Seaborn, to handle data, create visualizations, and generate the report.
 
 Step 1: Loading Data The first step in the code is to load the dataset from a CSV file. The function load_data() uses the Pandas library to read the CSV file with the pd.read_csv() function. The path to the file is specified in the file_path variable. After loading the data, the column names are stripped of any leading or trailing spaces using df.columns.str.strip() to ensure that the column names are clean and consistent. This is important for data preprocessing and prevents errors in later steps. The function then prints out the names of the columns in the dataset to confirm their accuracy and returns the DataFrame containing the data. This operation is performed in the Jupyter Notebook, allowing users to visually inspect the dataset’s structure.
 
@@ -29,4 +30,5 @@ Step 4: Generating the PDF Report The fourth step is to generate a PDF report su
 Step 5: Bringing It All Together The main() function is responsible for executing the entire process. It calls the load_data(), analyze_data(), plot_capital_output(), and generate_pdf_report() functions in sequence. If any required columns are missing, an error is caught, and a message is displayed, preventing further execution. This modular approach allows users to interactively run different parts of the analysis in the Jupyter Notebook, making it easy to adjust and refine the workflow as needed.
 
 Conclusion In summary, this code is implemented in a Jupyter Notebook, allowing users to interactively load, analyze, and visualize economic data. The use of Pandas for data manipulation, Matplotlib for plotting, and FPDF for PDF report generation makes the code a powerful tool for automated data analysis. The ability to display plots directly within the notebook and generate a professional PDF report at the end enhances the overall workflow, making it suitable for both analysis and presentation purposes. This approach provides a seamless way to analyze and communicate insights from the data while leveraging the interactive capabilities of a Jupyter Notebook.
+***OUTPUT***:![Image](https://github.com/user-attachments/assets/83793405-e919-4626-9570-5daa1ca9deeb)
 
